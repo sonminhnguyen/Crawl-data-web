@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>crawling-data</title> 
+</head>
+  
+<body>
+  <div class="header">
+    {{>header}}
+  </div>
+  
+  <div class="main-content">
+    <div class="leftcolumn">
+      <section>
+        something aside
+      </section>
+    </div>
+
+    <div class="middlecolumn">
+      <p>Welcome to crawling app</p> 
+      <form>
+        <label for="URL">URL</label><br>
+        <input type="text" name="URL" placeholder="Url"><br>
+        <label for="REGEX">REGEX</label><br>
+        <input type="text" name="REGEX" placeholder="Regex"><br>
+        <button>Send</button>
+      </form>
+
+    
+    </div>
+
+    <div class="rightcolumn">
+
+    </div>
+  </div>
+
+  <div class="footer">
+    {{>footer}}
+  </div>
+</body>
+
+</html>
